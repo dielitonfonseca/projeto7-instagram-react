@@ -4,7 +4,7 @@ import Conteudo from './Conteudo';
 export default function App(){
     return (
         <div>
-            <Topo/>
+        <Topo/>
             <Conteudo/>
         </div>
     )

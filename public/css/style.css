@@ -11,6 +11,9 @@
     font-size: 14px;
   }
   
+  .navbar ion-icon, .navbar img {
+    cursor: pointer;
+  }
   .navbar {
     width: 100%;
     display: flex;
@@ -25,10 +28,11 @@
     z-index: 2;
   }
   
-  .navbar ion-icon, .navbar img {
-    cursor: pointer;
+  .navbar .container > * {
+    display: flex;
+    align-items: center;
+    height: 100%;
   }
-  
   .navbar .container {
     width: 100%;
     max-width: 935px;
@@ -37,12 +41,7 @@
     align-items: center;
     height: 100%;
   }
-  
-  .navbar .container > * {
-    display: flex;
-    align-items: center;
-    height: 100%;
-  }
+
   
   .navbar .logo img {
     position: relative;
@@ -82,13 +81,13 @@
     margin-top: 88px;
   }
   
+  .sidebar {
+    width: 293px;
+  }
+  
   .esquerda {
     width: 100%;
     max-width: 614px;
-  }
-  
-  .sidebar {
-    width: 293px;
   }
   
   .stories {
@@ -184,13 +183,6 @@
     width: 100%;
   }
   
-  .post .fundo .acoes {
-    display: flex;
-    justify-content: space-between;
-    padding: 13px 16px;
-    font-size: 24px;
-  }
-  
   .post .fundo .acoes div:first-child ion-icon {
     margin-right: 6px;
   }
@@ -206,6 +198,13 @@
     width: 20px;
     height: 20px;
     margin-right: 10px;
+  }
+  
+  .post .fundo .acoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 16px;
+    font-size: 24px;
   }
   
   .post:last-child {
@@ -298,11 +297,11 @@
     margin-top: 18px;
   }
   
-  .fundo-mobile {
+  .mobile {
     display: none;
   }
   
-  .fundo-mobile ion-icon {
+  .mobile ion-icon {
     cursor: pointer;
   }
   
